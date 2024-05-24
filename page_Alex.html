@@ -25,14 +25,26 @@
             text-align: center;
         }
         .content {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        img {
+        .image-container {
+            flex: 1;
+            text-align: center;
+        }
+        .image-container img {
             max-width: 100%;
             height: auto;
-            display: block;
-            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .text-container {
+            flex: 2;
+            margin: 0 2em;
+            text-align: left;
         }
         footer {
             background-color: #00796b;
@@ -51,23 +63,29 @@
     </header>
     <main>
         <div class="content">
-            <h2>Introduction</h2>
-            <p>Les sirènes sont des créatures mythologiques souvent représentées comme mi-femme, mi-poisson. Elles sont célèbres pour leur beauté envoûtante et leur chant enivrant, qui attirait les marins vers des écueils mortels.</p>
+            <div class="image-container">
+                <img src="sirene2.jpg" alt="Image de sirène à gauche">
+            </div>
+            <div class="text-container">
+                <h2>Introduction</h2>
+                <p>Les sirènes sont des créatures mythologiques souvent représentées comme mi-femme, mi-poisson. Elles sont célèbres pour leur beauté envoûtante et leur chant enivrant, qui attirait les marins vers des écueils mortels.</p>
 
-            <h2>Origines et Mythologie</h2>
-            <p>Les histoires de sirènes remontent à l'Antiquité, avec des mentions dans la mythologie grecque, où elles étaient décrites comme des êtres maléfiques vivant sur des îles rocheuses. Leur chant était irrésistible pour quiconque les entendait, souvent avec des conséquences tragiques.</p>
+                <h2>Origines et Mythologie</h2>
+                <p>Les histoires de sirènes remontent à l'Antiquité, avec des mentions dans la mythologie grecque, où elles étaient décrites comme des êtres maléfiques vivant sur des îles rocheuses. Leur chant était irrésistible pour quiconque les entendait, souvent avec des conséquences tragiques.</p>
 
-            <h2>Représentations Culturelles</h2>
-            <p>Dans l'art et la littérature, les sirènes ont été représentées de différentes manières. Elles apparaissent dans les œuvres d'Homère, d'Ovide, et dans de nombreuses légendes maritimes à travers le monde. Au fil du temps, elles sont devenues des symboles de séduction et de mystère.</p>
+                <h2>Représentations Culturelles</h2>
+                <p>Dans l'art et la littérature, les sirènes ont été représentées de différentes manières. Elles apparaissent dans les œuvres d'Homère, d'Ovide, et dans de nombreuses légendes maritimes à travers le monde. Au fil du temps, elles sont devenues des symboles de séduction et de mystère.</p>
 
-            <h2>Les Sirènes dans la Culture Moderne</h2>
-            <p>Aujourd'hui, les sirènes continuent de fasciner et d'inspirer. Elles apparaissent dans des films, des séries télévisées, des livres et même dans la culture populaire et la mode. Elles représentent souvent une connexion mystérieuse avec la mer et la nature.</p>
-
-            <img src="https://example.com/mermaid.jpg" alt="Image de sirène">
+                <h2>Les Sirènes dans la Culture Moderne</h2>
+                <p>Aujourd'hui, les sirènes continuent de fasciner et d'inspirer. Elles apparaissent dans des films, des séries télévisées, des livres et même dans la culture populaire et la mode. Elles représentent souvent une connexion mystérieuse avec la mer et la nature.</p>
+            </div>
+            <div class="image-container">
+                <img src="sirene.jpg" alt="Image de sirène à droite">
+            </div>
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 Page créée par Alex</p>
+        <p>&copy; 2024 Page créée par Alexou7894</p>
     </footer>
 </body>
 </html>
