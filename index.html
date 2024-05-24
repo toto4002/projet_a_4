@@ -26,15 +26,16 @@
             justify-content: space-around;
             flex-wrap: wrap;
         }
+        .gallery a {
+            width: 45%;
+        }
         .gallery img {
-            max-width: 100%;
-            height: auto;
+            height: 200px; /* Définissez la hauteur souhaitée pour toutes les images */
+            width: auto;
             border: 2px solid #333;
             margin: 10px;
             cursor: pointer;
-        }
-        .gallery a {
-            width: 45%;
+            object-fit: cover; /* Assurez-vous que l'image couvre bien l'espace sans déformation */
         }
         footer {
             padding: 10px 0;
@@ -49,7 +50,7 @@
     </header>
     <div class="gallery">
         <a href="page_Alex.html">
-            <img src="https://example.com/sirene.jpg" alt="Image de sirène">
+            <img src="sirene2.jpg" alt="Image de sirène">
         </a>
         <a href="page_sam.html">
             <img src="image_licorne.jpg" alt="Image de licorne">
